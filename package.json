@@ -7,21 +7,13 @@
     "build-demo": "browserify ./sample/sample.jsx -o ./sample/sample.js"
   },
   "browserify": {
-    "transform": [
-      ["reactify"]
-    ]
+    "transform": [["reactify"]]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/pablofierro/react-drag-select.git"
   },
-  "keywords": [
-    "react",
-    "react-component",
-    "drag",
-    "select",
-    "ui"
-  ],
+  "keywords": ["react", "react-component", "drag", "select", "ui"],
   "author": "pablofierro",
   "license": "ISC",
   "bugs": {
@@ -29,8 +21,10 @@
   },
   "homepage": "https://github.com/pablofierro/react-drag-select",
   "dependencies": {
-    "lodash": "^3.10.1",
-    "react": "^0.13.3"
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
     "browserify": "^11.0.1",
